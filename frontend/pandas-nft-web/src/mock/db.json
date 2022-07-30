@@ -1,0 +1,118 @@
+{
+  "users": [
+    {
+      "id": "46c59909-2cda-4444-a184-6790c580c01d",
+      "name": "Jonathan J. Hobbs",
+      "email": "jonathanJHobbs@teleworm.us",
+      "points": 100,
+      "wallet": "0x22E905397A051898247761AD85F2FF4DA249CD35",
+      "image": "https://fakeimg.pl/300/"
+    },
+    {
+      "id": "02ede2e6-58bb-4b23-b9fa-caf7edb84651",
+      "name": "Ron Y. Raffaele",
+      "email": "ronYRaffaele@armyspy.com",
+      "points": 90,
+      "wallet": "0xDBF9E35D5BD96AC9A2A5981552A93C980ECD1278",
+      "image": "https://fakeimg.pl/300/"
+    },
+    {
+      "id": "ee486d64-88ad-4f07-b3d7-42bebfb73b34",
+      "name": "Jo M. Yardley",
+      "email": "joMYardley@dayrep.com",
+      "points": 80,
+      "wallet": "0x56ED0AA7CCB214F090C507D12E16FEFDA28C2840",
+      "image": "https://fakeimg.pl/300/"
+    },
+    {
+      "id": "827a4024-d8bf-49a8-a192-4965082862f6",
+      "name": "Tammy A. Foster",
+      "email": "tammyAFoster@rhyta.com",
+      "points": 70,
+      "wallet": "0x2769D3144B7AA7246230F70695A688EEF070B2C1",
+      "image": "https://fakeimg.pl/300/"
+    },
+    {
+      "id": "078c71c4-c381-4860-8a8f-ec2920be150d",
+      "name": "Agustin E. Wyatt",
+      "email": "agustinEWyatt@dayrep.com",
+      "points": 60,
+      "wallet": "0x5C5AF631C6C44B1CC23C5FE7B3814F56410E6DD9",
+      "image": "https://fakeimg.pl/300/"
+    },
+    {
+      "id": "1de5bcd6-04a0-4495-979c-e0e989e7428b",
+      "name": "Perry S. Hill",
+      "email": "perrySHill@rhyta.com",
+      "points": 50,
+      "wallet": "0x61CE87E98543744B057BF10B4E2E6ED0F5A5EC12",
+      "image": "https://fakeimg.pl/300/"
+    },
+    {
+      "id": "607f21be-9f37-4788-8db2-52bb59dcfd7d",
+      "name": "Raymond S. Clay",
+      "email": "raymondSClay@armyspy.com",
+      "points": 40,
+      "wallet": "0x665275FF220DED25864548F7B3DD235D4467A544",
+      "image": "https://fakeimg.pl/300/"
+    },
+    {
+      "id": "daa8215e-874f-41b4-8d47-3ae7596e2586",
+      "name": "Florance T. Norton",
+      "email": "floranceTNorton@armyspy.com",
+      "points": 30,
+      "wallet": "0x26114D81398AF02F3B7C17B458A92030B92900CE",
+      "image": "https://fakeimg.pl/300/"
+    },
+    {
+      "id": "7b0af184-e2db-4448-beeb-22912f4339c3",
+      "name": "Elvira C. Vogl",
+      "email": "elviraCVogl@jourrapide.com",
+      "points": 20,
+      "wallet": "0x5017B81C3AB47AEE2BD48D2EBF17D2764C7E67F4",
+      "image": "https://fakeimg.pl/300/"
+    },
+    {
+      "id": "dd02ee70-27e2-4a34-aecb-b13a89ef7d31",
+      "name": "Beatrice R. Gonzalez",
+      "email": "beatriceRGonzalez@armyspy.com",
+      "points": 10,
+      "wallet": "0x2C0C9E46471E5D9A222696B685A19CF0087BB6CB",
+      "image": "https://fakeimg.pl/300/"
+    },
+    {
+      "name": "Luby",
+      "email": "luby@admin.com",
+      "password": "secret",
+      "passwordConfirmation": "secret",
+      "id": "pdam0ca"
+    }
+  ],
+  "tokens": [
+    {
+      "id": 1,
+      "name": "QUANTUM APE MEGAGAME 1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "category": "collectibles",
+      "image": "https://fakeimg.pl/300/",
+      "price": 4.99,
+      "creator": {
+        "id": "46c59909-2cda-4444-a184-6790c580c01d",
+        "name": "Jonathan J. Hobbs",
+        "email": "jonathanJHobbs@teleworm.us",
+        "points": 100,
+        "wallet": "0x22E905397A051898247761AD85F2FF4DA249CD35",
+        "image": "https://fakeimg.pl/300/"
+      },
+      "owner": {
+        "id": "078c71c4-c381-4860-8a8f-ec2920be150d",
+        "name": "Agustin E. Wyatt",
+        "email": "agustinEWyatt@dayrep.com",
+        "points": 60,
+        "wallet": "0x5C5AF631C6C44B1CC23C5FE7B3814F56410E6DD9",
+        "image": "https://fakeimg.pl/300/"
+      },
+      "network": "bsc"
+    }
+  ]
+}

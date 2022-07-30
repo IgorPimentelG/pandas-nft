@@ -1,9 +1,9 @@
 {
   "name": "pandas-nft-web",
-	"author": {
-		"name": "Igor Pimentel",
-		"email": "igor.pimentel.msi@hotmail.com"
-	},
+  "author": {
+    "name": "Igor Pimentel",
+    "email": "igor.pimentel.msi@hotmail.com"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -55,6 +55,7 @@
     "react-redux": "^8.0.2",
     "react-refresh": "^0.11.0",
     "react-router-dom": "^6.3.0",
+    "react-timer-hook": "^3.0.5",
     "resolve": "^1.20.0",
     "resolve-url-loader": "^4.0.0",
     "sass-loader": "^12.3.0",

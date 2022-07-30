@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
-import { CardArtist, CardDialog, CardWallets, Page } from '@components/Layout';
+import { CardArtist, CardDialog, CardNFT, CardWallets, Page } from '@components/Layout';
 import { CardInfo } from '@components/Layout/CardInfo';
-import { OutlineButton } from '@components/UI';
-import { Cards, Container, ContainerTitle, HeaderSectionArtits, RootContainer, TitleSection } from './styles';
+import { OutlineButton, PrimaryButton } from '@components/UI';
+import { Cards, Container, ContainerLines, ContainerMain, ContainerMainLeft, ContainerMainRight, ContainerTitle, HeaderSectionArtits, Label, Line, RootContainer, Title, TitleSection } from './styles';
 
 const HomePage = () => {
 
@@ -49,9 +49,39 @@ const HomePage = () => {
 	];
 
 
+
+
 	return(
 		<Page>
 			<RootContainer>
+				<ContainerLines>
+					{
+						[...Array(5)].map((_, index) => (
+							<Line key={index}/>
+						))
+					}
+				</ContainerLines>
+
+				<ContainerMain>
+					<ContainerMainLeft>
+						<Title>
+							Discover a New Era<br/>Of Crypto Currency
+						</Title>
+						<Label>
+							Pandas NFT is the primier marketplace for NFT, which are digital items you<br/>
+							can truly own. Digital items have existed for a long time, but never like<br/>
+							this.
+						</Label>
+						<PrimaryButton config={{
+							text: 'Get Started',
+							handle: () => {}
+						}}/>
+					</ContainerMainLeft>
+
+					<ContainerMainRight>
+
+					</ContainerMainRight>
+				</ContainerMain>
 
 				<CardWallets/>
 
@@ -91,7 +121,7 @@ const HomePage = () => {
 						/>
 					</HeaderSectionArtits>
 
-
+					<CardNFT/>
 				</Container>
 
 				<Container>
